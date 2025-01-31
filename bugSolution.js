@@ -1,0 +1,1 @@
+function foo(a, b) {    if (b === 0) {        // Handle division by zero appropriately.        return Infinity; // Or throw a custom error: throw new Error('Division by zero');    }    return a / b;}console.log(foo(10, 0)); // Returns Infinity.  No error thrown.console.log(foo(10,2)); // Returns 5
